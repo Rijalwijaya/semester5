@@ -1,0 +1,129 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cafe</title>
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-choco-600 navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Nama Cafe</a>
+                <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <button class="btn btn-primary d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Cafe</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <a href="index.html" class="text-white" style="text-decoration: none">Home</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="menu.html" class="text-white" style="text-decoration: none">Menu</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#" class="text-white" style="text-decoration: none">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <main>
+            <section id="home" class="banner bg-choco-700">
+                <div class="banner-text">
+                    <h1 class="banner-title">
+                        The best quality coffe beans <br />
+                        for the best coffe brew
+                    </h1>
+                    <p class="banner-description">A cup is nough to give you energy all day long</p>
+                    <a href="menu.html" class="text-decoration-none text-white"><button class="btn btn-primary rounded-4">Order Now</button></a>
+                    <div class="banner-team-work">
+                        <h5>Team Work</h5>
+                        <div class="banner-team">
+                            <div class="mt-4">
+                                <svg width="90" height="90" viewBox="0 0 138 138" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="69" cy="69" r="69" fill="#D9D9D9" />
+                                </svg>
+                            </div>
+                            <div class="mt-4">
+                                <svg width="90" height="90" viewBox="0 0 138 138" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="69" cy="69" r="69" fill="#D9D9D9" />
+                                </svg>
+                            </div>
+                            <div class="mt-4">
+                                <svg width="90" height="90" viewBox="0 0 138 138" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="69" cy="69" r="69" fill="#D9D9D9" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="banner-svg">
+                    <svg viewBox="0 0 1440 561" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="217" width="1440" height="344" fill="#0B0500" />
+                        <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M0 55.9939L24 85.9949C48 115.996 96 175.998 144 199.999C192 224 240 211.999 288 181.998C336 151.997 384 103.996 432 67.9943C480 31.9931 528 7.99225 576 7.99225C624 7.99225 672 31.9931 720 67.9943C768 103.996 816 151.997 864 145.997C912 139.997 960 79.9947 1008 79.9947C1056 79.9947 1104 139.997 1152 127.996C1200 115.996 1248 31.9931 1296 7.99225C1344 -16.0086 1392 19.9927 1416 37.9933L1440 55.9939V236H1416C1392 236 1344 236 1296 236C1248 236 1200 236 1152 236C1104 236 1056 236 1008 236C960 236 912 236 864 236C816 236 768 236 720 236C672 236 624 236 576 236C528 236 480 236 432 236C384 236 336 236 288 236C240 236 192 236 144 236C96 236 48 236 24 236H0V55.9939Z"
+                            fill="#0B0500"
+                        />
+                    </svg>
+                </div>
+            </section>
+            <div class="banner-social-group bg-choco-600">
+                <div class="banner-social">
+                    <div class="icon-social">
+                        <svg viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M49.5 27C49.5 14.58 39.42 4.5 27 4.5C14.58 4.5 4.5 14.58 4.5 27C4.5 37.89 12.24 46.9575 22.5 49.05V33.75H18V27H22.5V21.375C22.5 17.0325 26.0325 13.5 30.375 13.5H36V20.25H31.5C30.2625 20.25 29.25 21.2625 29.25 22.5V27H36V33.75H29.25V49.3875C40.6125 48.2625 49.5 38.6775 49.5 27Z" fill="white" />
+                        </svg>
+                    </div>
+                    <div class="icon-social">
+                        <svg viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17.55 4.5H36.45C43.65 4.5 49.5 10.35 49.5 17.55V36.45C49.5 39.9111 48.1251 43.2304 45.6777 45.6777C43.2304 48.1251 39.9111 49.5 36.45 49.5H17.55C10.35 49.5 4.5 43.65 4.5 36.45V17.55C4.5 14.0889 5.87491 10.7696 8.32226 8.32226C10.7696 5.87491 14.0889 4.5 17.55 4.5ZM17.1 9C14.9517 9 12.8915 9.85339 11.3724 11.3724C9.85339 12.8915 9 14.9517 9 17.1V36.9C9 41.3775 12.6225 45 17.1 45H36.9C39.0483 45 41.1085 44.1466 42.6276 42.6276C44.1466 41.1085 45 39.0483 45 36.9V17.1C45 12.6225 41.3775 9 36.9 9H17.1ZM38.8125 12.375C39.5584 12.375 40.2738 12.6713 40.8012 13.1988C41.3287 13.7262 41.625 14.4416 41.625 15.1875C41.625 15.9334 41.3287 16.6488 40.8012 17.1762C40.2738 17.7037 39.5584 18 38.8125 18C38.0666 18 37.3512 17.7037 36.8238 17.1762C36.2963 16.6488 36 15.9334 36 15.1875C36 14.4416 36.2963 13.7262 36.8238 13.1988C37.3512 12.6713 38.0666 12.375 38.8125 12.375ZM27 15.75C29.9837 15.75 32.8452 16.9353 34.955 19.045C37.0647 21.1548 38.25 24.0163 38.25 27C38.25 29.9837 37.0647 32.8452 34.955 34.955C32.8452 37.0647 29.9837 38.25 27 38.25C24.0163 38.25 21.1548 37.0647 19.045 34.955C16.9353 32.8452 15.75 29.9837 15.75 27C15.75 24.0163 16.9353 21.1548 19.045 19.045C21.1548 16.9353 24.0163 15.75 27 15.75ZM27 20.25C25.2098 20.25 23.4929 20.9612 22.227 22.227C20.9612 23.4929 20.25 25.2098 20.25 27C20.25 28.7902 20.9612 30.5071 22.227 31.773C23.4929 33.0388 25.2098 33.75 27 33.75C28.7902 33.75 30.5071 33.0388 31.773 31.773C33.0388 30.5071 33.75 28.7902 33.75 27C33.75 25.2098 33.0388 23.4929 31.773 22.227C30.5071 20.9612 28.7902 20.25 27 20.25Z"
+                                fill="white"
+                            />
+                        </svg>
+                    </div>
+                    <div class="icon-social">
+                        <svg viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M36.1283 30.9167C36.305 29.4592 36.4375 28.0017 36.4375 26.5C36.4375 24.9983 36.305 23.5408 36.1283 22.0833H43.5925C43.9458 23.4967 44.1667 24.9762 44.1667 26.5C44.1667 28.0237 43.9458 29.5033 43.5925 30.9167M32.2196 43.195C33.5446 40.7437 34.5604 38.0937 35.2671 35.3333H41.7817C39.6422 39.0174 36.2478 41.8082 32.2196 43.195ZM31.6675 30.9167H21.3325C21.1117 29.4592 20.9792 28.0017 20.9792 26.5C20.9792 24.9983 21.1117 23.5187 21.3325 22.0833H31.6675C31.8662 23.5187 32.0208 24.9983 32.0208 26.5C32.0208 28.0017 31.8662 29.4592 31.6675 30.9167ZM26.5 44.0783C24.6671 41.4283 23.1875 38.4912 22.2821 35.3333H30.7179C29.8125 38.4912 28.3329 41.4283 26.5 44.0783ZM17.6667 17.6667H11.2183C13.3358 13.9726 16.7277 11.1774 20.7583 9.80499C19.4333 12.2562 18.4396 14.9062 17.6667 17.6667ZM11.2183 35.3333H17.6667C18.4396 38.0937 19.4333 40.7437 20.7583 43.195C16.7361 41.8074 13.349 39.0162 11.2183 35.3333ZM9.40749 30.9167C9.05416 29.5033 8.83332 28.0237 8.83332 26.5C8.83332 24.9762 9.05416 23.4967 9.40749 22.0833H16.8717C16.695 23.5408 16.5625 24.9983 16.5625 26.5C16.5625 28.0017 16.695 29.4592 16.8717 30.9167M26.5 8.89957C28.3329 11.5496 29.8125 14.5087 30.7179 17.6667H22.2821C23.1875 14.5087 24.6671 11.5496 26.5 8.89957ZM41.7817 17.6667H35.2671C34.5759 14.9315 33.5525 12.2913 32.2196 9.80499C36.2829 11.1962 39.6617 14.0008 41.7817 17.6667ZM26.5 4.41666C14.2879 4.41666 4.41666 14.3542 4.41666 26.5C4.41666 32.3569 6.74329 37.9738 10.8847 42.1153C12.9353 44.1659 15.3698 45.7925 18.0491 46.9023C20.7283 48.0121 23.6 48.5833 26.5 48.5833C32.3569 48.5833 37.9738 46.2567 42.1153 42.1153C46.2567 37.9738 48.5833 32.3569 48.5833 26.5C48.5833 23.6 48.0121 20.7283 46.9023 18.0491C45.7925 15.3698 44.1659 12.9353 42.1153 10.8847C40.0646 8.83409 37.6302 7.20744 34.9509 6.09765C32.2716 4.98786 29.4 4.41666 26.5 4.41666Z"
+                                fill="white"
+                            />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
